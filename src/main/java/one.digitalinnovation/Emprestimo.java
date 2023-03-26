@@ -21,7 +21,7 @@ public class Emprestimo {
     public static void calcular(double valor, int parcelas){
 
         if (parcelas == 2){
-            double valorFinal = valor + (valor * getDuasParcelas());
+            double valorFinal = valor + (valor * getTaxaDuasParcelas());
 
             System.out.println("Valor final do empréstimo para 2 parcelas é: R$ " + valorFinal);
 
